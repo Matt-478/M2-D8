@@ -68,9 +68,9 @@ body {
 }
 
 .yellow-center {
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
   margin: 0;
 }
 
@@ -90,4 +90,23 @@ body {
 .grow-and-margin {
   flex-grow: 1;
   margin: 20px;
+}
+
+
+/* Ex 3*/
+.left-sm-border {
+  border: 2px solid darkgray;
+  border-radius: 5px 0 0 5px;
+  padding: 3px 5px;
+
+  color: darkgray;
+}
+
+.right-sm-border {
+  border: 2px solid darkgray;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  padding: 3px 5px;
+
+  color: darkgray;
 }
