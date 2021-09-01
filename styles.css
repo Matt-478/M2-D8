@@ -1,0 +1,80 @@
+body {
+  box-sizing: border-box;
+}
+
+.h-400 {
+  height: 400px;
+}
+
+
+.border-right-black {
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-radius: 0 40px 40px 0;
+}
+
+.rounded-left-extra {
+  border-radius: 40px 0 0 40px;
+  border: 2px solid black;
+}
+
+.border-y-black {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.flex-g-2 {
+  flex-grow: 2;
+}
+
+.flex-g-3 {
+  flex-grow: 3;
+}
+
+.text-flex-center {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.text-flex-bottom {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 20px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.light-yellow-box {
+  background-color: #F6EDA3;
+  flex-grow: 1;
+}
+
+.medium-yellow-box {
+  background-color: #ecd947;
+  flex-grow: 1;
+}
+
+.deep-yellow-box {
+  background-color: #e6c11e;
+  flex-grow: 1;
+}
+
+.yellow-center {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0;
+}
+
+.top-right-round {
+  border-radius: 0 40px 0 0;
+}
+
+.btm-right-round {
+  border-radius: 0 0 40px 0;
+}
