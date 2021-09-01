@@ -81,3 +81,13 @@ body {
 .btm-right-round {
   border-radius: 0 0 40px 0;
 }
+
+
+
+
+
+/* ex 2 */
+.grow-and-margin {
+  flex-grow: 1;
+  margin: 20px;
+}
